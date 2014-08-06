@@ -1,0 +1,37 @@
+name = FriendlyWater BusinessTime
+description = FriendlyWater child theme of BusinessTime
+version = 0.1
+core = 7.x
+base theme = businesstime
+
+stylesheets[all][] = ../businesstime/css/normalize.css
+stylesheets[all][] = ../businesstime/css/formalize.css
+stylesheets[all][] = ../businesstime/css/grid_12.css
+stylesheets[all][] = ../businesstime/css/layout.css
+stylesheets[all][] = ../businesstime/css/style.css
+stylesheets[all][] = ../businesstime/css/responsive.css
+stylesheets[all][] = css/custom.css
+
+regions[header]         = Header
+regions[user_menu]      = User Menu
+regions[main_menu]      = Main Menu
+regions[nav_menu]       = Navigation Menu
+regions[search_box]     = Search Box
+regions[highlighted]    = Highlighted
+regions[help]           = Help
+regions[sidebar_first]  = First sidebar
+regions[sidebar_second] = Second sidebar
+regions[slideshow]      = Slideshow
+regions[preface_1]      = Preface First
+regions[preface_2]      = Preface Second
+regions[preface_3]      = Preface Third
+regions[preface_4]      = Preface Fourth
+regions[content_top]    = Content Top
+regions[content]        = Content
+regions[content_bottom] = Content Bottom
+regions[postscript_1]   = Postscript First
+regions[postscript_2]   = Postscript Second
+regions[postscript_3]   = Postscript Third
+regions[postscript_4]   = Postscript Fourth
+regions[footer]         = Footer
+

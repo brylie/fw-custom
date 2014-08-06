@@ -1,0 +1,110 @@
+body {
+  color: #000;
+  width: 100%;
+}
+.views-field-field-image {
+  padding: 0;
+  float: left;
+  max-width: 100%;
+}
+figure {
+  float: right;
+  border: 0.1em dotted grey;
+  background: #eee;
+  margin: 0;
+  width: -moz-min-content;
+  width: -webkit-min-content;
+  width: min-content;
+}
+figure img {
+  padding: 0;
+  margin: 0;
+  margin-right: 0px;
+}
+figcaption {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 0.8rem;
+}
+img {
+  margin: 0;
+  padding: 0;
+}
+.field-name-field-image img {
+  border: 5px solid #F9F9F9;
+  border-radius: 3px 3px 3px 3px;
+  box-shadow: 0 0 15px #DDD;
+  display: block;
+  float: right;
+  margin-right: 0px;
+}
+#views_slideshow_cycle_teaser_section_image_blocks-block_1 {
+  float: right;
+  margin: 1em;
+}
+.views-field-title {
+  text-align: center;
+}
+#block-views-image-blocks-block-2 img {
+  max-width: 100%;
+}
+#civicrm-menu {
+  list-style: none;
+}
+.menumain {
+  list-style: none;
+}
+
+.menu-ul li {
+  list-style: none;
+}
+#webform-client-form-252 {
+  width: 100%;
+}
+#webform-component-civicrm-1-contact-1-fieldset-fieldset input {
+  max-width: 100%;
+}
+.webform-component {
+  max-width: 80%;
+}
+.block-civicrm input {
+  max-width: 88%;
+}
+.site-logo {
+  float: left;
+  clear: both;
+}
+.site-name {
+  width: 100%;
+  margin-top: 2em;
+}
+.site-slogan {
+  /* text-align: center; */
+}
+
+#nap {
+ font-size: x-large;
+ text-align: center;
+ color: red;
+ margin: 0;
+ padding: 0.5em;
+ border: 1px;
+}
+#nap a {
+ color: red;
+ text-decoration: underline;
+}
+.header-wrapper-inner {
+  padding: 0;
+}
+.slideshow-wrapper{
+  margin: 0;
+  padding: 0;
+  background-color: #ddd;
+}
+
+@media (min-width: 768px) {
+  .header-wrapper hgroup {
+    width: 100%;
+  }
+}
