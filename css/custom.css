@@ -51,6 +51,7 @@ img {
 }
 #block-views-image-blocks-block-2 img {
   max-width: 100%;
+  height: auto;
 }
 #civicrm-menu {
   list-style: none;
@@ -119,6 +120,14 @@ img {
 
 .upcoming-event {
   margin-bottom: 1em;
+}
+@media (min-width: 768px) {
+  .sidebar {
+    width: 25% !important;
+  }
+  .main-inner {
+    width: 42% !important;
+  }
 }
 
 @media (min-width: 980px) {
