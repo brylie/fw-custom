@@ -8,7 +8,8 @@ body {
   max-width: 100%;
 }
 figure {
-  float: right;
+  /*float: right;*/
+  display: inline-block;
   border: 0.1em dotted grey;
   background: #eee;
   margin: 0;
@@ -35,8 +36,11 @@ img {
   border-radius: 3px 3px 3px 3px;
   box-shadow: 0 0 15px #DDD;
   display: block;
-  float: right;
+  /* float: right;*/
   margin-right: 0px;
+}
+.field-name-field-location {
+  clear: both;
 }
 #views_slideshow_cycle_teaser_section_image_blocks-block_1 {
   float: right;
@@ -94,17 +98,31 @@ img {
  color: red;
  text-decoration: underline;
 }
+.event-title {
+  padding-bottom: 0;
+}
+.field-name-field-description {
+  clear: both;
+}
 .header-wrapper-inner {
   padding: 0;
 }
+.node-content-wrapper.image-margin {
+  margin-left: 0.5em !important;
+}
+
 .slideshow-wrapper{
   margin: 0;
   padding: 0;
   background-color: #ddd;
 }
 
-@media (min-width: 768px) {
+.upcoming-event {
+  margin-bottom: 1em;
+}
+
+@media (min-width: 980px) {
   .header-wrapper hgroup {
-    width: 100%;
+    width: 70%;
   }
 }
