@@ -42,10 +42,6 @@ img {
 .field-name-field-location {
   clear: both;
 }
-#views_slideshow_cycle_teaser_section_image_blocks-block_1 {
-  float: right;
-  margin: 1em;
-}
 .views-field-title {
   text-align: center;
 }
@@ -63,6 +59,19 @@ img {
 .menu-ul li {
   list-style: none;
 }
+#paypal-donate {
+  height: 33px;
+}
+#views_slideshow_cycle_teaser_section_image_blocks-block_1 {
+  float: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+#views_slideshow_cycle_teaser_section_image_blocks-block_1 .field-content {
+  padding: 0 !important;
+}
+
 #webform-client-form-252 {
   width: 100%;
 }
@@ -122,6 +131,10 @@ img {
   margin-bottom: 1em;
 }
 @media (min-width: 768px) {
+  #views_slideshow_cycle_teaser_section_image_blocks-block_1 {
+    float: right;
+    margin: 0 0 0 1em;
+  }
   .sidebar {
     width: 25% !important;
   }
